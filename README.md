@@ -11,6 +11,7 @@ Using the Simple Linear Regression Model to predict the future outcome
 important two steps is to train and test the model
 
 from Sklearn.model_selection import train_test_splits
+
 x_train ,x_test ,y_train , y_test = train_test_splits(x,y,train_size=0.8, random_state=0)
 
 from sklearn.linear_model import LinearRegression
